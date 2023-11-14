@@ -20,9 +20,6 @@ import antlr.StringUtils;
 @Transactional
 public class MessageService {
 
-    public List<Message> getAllMessages() {
-        return null;
-    }
 
    public MessageRepository msgRepo;
    public AccountRepository acctRepo;
